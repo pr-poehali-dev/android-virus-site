@@ -191,6 +191,31 @@ const Index = () => {
           </div>
         </div>
       </section>
+
+      {/* Footer */}
+      <footer className="bg-slate-900 border-t border-slate-800">
+        <div className="container mx-auto px-4 py-8">
+          <div className="flex flex-col md:flex-row items-center justify-between">
+            <div className="flex items-center mb-4 md:mb-0">
+              <img
+                src="https://cdn.poehali.dev/files/572a8e66-1e24-4273-ad7d-cf9556cf1c26.jpg"
+                alt="FDS74 Logo"
+                className="w-10 h-10 mr-3 rounded-full bg-white p-1"
+              />
+              <div>
+                <p className="text-gray-300 text-sm">Создано с помощью</p>
+                <p className="text-white font-semibold">FDS74</p>
+              </div>
+            </div>
+            <div className="text-center md:text-right">
+              <p className="text-gray-400 text-sm">
+                © 2024 Android Virus Protection
+              </p>
+              <p className="text-gray-500 text-xs mt-1">Все права защищены</p>
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 };
