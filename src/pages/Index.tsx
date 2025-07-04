@@ -200,7 +200,7 @@ const Index = () => {
               <img
                 src="https://cdn.poehali.dev/files/572a8e66-1e24-4273-ad7d-cf9556cf1c26.jpg"
                 alt="FDS74 Logo"
-                className="w-10 h-10 mr-3 rounded-full bg-white p-1"
+                className="w-16 h-16 mr-4 rounded-full bg-white p-2"
               />
               <div>
                 <p className="text-gray-300 text-sm">Создано с помощью</p>
